@@ -2,7 +2,8 @@
 "use client"; // Essential for client-side interactivity
 
 import React from 'react';
-import { Mail, Phone, MapPin, Globe, Code, Briefcase, GraduationCap, Folder, User, Zap, GitBranch, Cloud, Database, Cpu, ShoppingCart, Search, Lightbulb, Bot, FileText, BarChart, HardHat, Factory, ScrollText, HeartHandshake, Award } from 'lucide-react';
+// ShoppingCart, Search, Lightbulb, Bot, FileText, BarChart, HardHat, Factory, ScrollText, HeartHandshake, Award
+import { Mail, Phone, MapPin, Globe, Code, Briefcase, GraduationCap, Folder, User, Zap, GitBranch, Cloud, Database, Cpu } from 'lucide-react';
 
 // Define TypeScript interfaces for better type safety and clarity
 interface Contact {
@@ -36,7 +37,7 @@ interface SubProject {
 interface ProjectItem {
   name: string;
   description: string;
-  icon: JSX.Element; // LucideReact icons are JSX elements
+  icon: React.ReactElement; // LucideReact icons are React elements
   subProjects?: SubProject[]; // Optional sub-projects
 }
 
@@ -312,7 +313,7 @@ const PortfolioPageContent: React.FC = () => {
                 {portfolioData.skills.versionControl.map((skill, index) => (
                   <li key={index} className="mb-2">{skill}</li>
                 ))}
-                </ul>
+              </ul>
             </div>
 
             {/* Cloud & Deployment */}
