@@ -67,7 +67,7 @@ const PortfolioPageContent: React.FC = () => {
     titles: ["Software Developer", "Full Stack Developer", "Backend Developer"],
     aboutMe: "Has tasted various fields of work and is now focusing on software developer work, Has more than 7 years of experience as a Software Developer. My main job is to planning software development, after that we build them and make sure it's run. So the summary is: to make everything related to the IT department work well. Have strong skillsets in Development of software, especially about integration from one source to multi platform And R&D. Write code by PHP, Javascript, Visual Basic, golang and lastly Python,. and been using framework laravel, prestashop, code igniter, Vue, wordpress(woocomerce), Express.js, next.js, React, flask, gin. Currently making a living, by converting tons of coffee into script code to become useable product",
     contact: {
-      email: "arief.novanda.zulvan@gmail.com",
+      email: "arief.novanda.work@gmail.com",
       phone: "+62 81311399700",
       location: "Jakarta, Indonesia",
       website: "http://sipalingtech.com/",
